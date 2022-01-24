@@ -1,9 +1,10 @@
 package Models;
 
 public abstract class user extends human{
-    
+
     //attributes
     //////////////////////////////////////////////////////////////
+    public time Time=new time();
     String UserName;
     String Password;
     address Address;
