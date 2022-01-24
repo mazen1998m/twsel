@@ -1,0 +1,31 @@
+package Models;
+
+public abstract class human {
+    
+    //attributes
+    //////////////////////////////////////////////////////////////
+    int Id;
+    String Name;
+    String Type;
+    String Phone;
+    //////////////////////////////////////////////////////////////
+    
+    //seter
+    //////////////////////////////////////////////////////////////
+    public abstract void setId(int Id);
+    public abstract void setName(String Name);
+    public abstract void setType(String Type);
+    public abstract void setPhone(String Phone);
+    //////////////////////////////////////////////////////////////
+    
+    //geter
+    ////////////////////////////////////////////////////////////// 
+    public int getId() {return Id;}
+    public String getName() {return Name;}
+    public String getType() {return Type;}
+    public String getPhone() {return Phone;}
+    //////////////////////////////////////////////////////////////
+
+  
+   
+   }
